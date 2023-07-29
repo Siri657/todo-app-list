@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 40%;
+    width: 550px;
+    position: center;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 30px 0 ;
+    border-radius: 9px;
+}
+
+
+
+#newtask{
+    position: relative;
+    padding: 30px 15px;
+    background: #ddbcbc;
+    box-shadow: 0 15px 30px rgb(87, 85, 85) ;
+}
+
+#newtask input{
+    border-radius: 5px;
+    width:70% ;
+    height:45px ;
+    font-size: small;
+    border: 2px solid #827777;
+    padding: 12px;
+    color: rgb(239, 197, 162)#111111;
+    font-weight: 400;
+    position: relative;
+
+}
+
+#newtask button {
+    position :relative;
+    float: center;
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #5e5b5b;
+    color: rgb(235, 241, 228);
+    border: #111111;
+    outline: auto;
+    cursor: pointer;
+
+}
+
+#tasks{
+    width: 100%;
+    position: relative; 
+    margin-top: 40px;
+    font-size: 20px;
+    background: #efd8d8;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+
+.task{
+    background: #f0d8d8;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(233, 177, 177, 0.818);
+
+}
+
+.task span{
+    
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task button{
+    border: none;
+    background: rgba(183, 233, 231, 0.346);
+    height: 100%;
+    width: 45px;
+    color: #111111;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-bar {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	font-size: 30px; /* Increase the font size */
+	cursor: pointer;
+	color:rgb(57, 54, 54);
+  }
+.home {
+	margin-top: 100px;
+	font-size: 40px; /*Increase the font size */
+	display: flex;
+	justify-content: center;
+	margin-right: 680px;
+	color:rgb(62, 59, 59);
+  }
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+
+}
